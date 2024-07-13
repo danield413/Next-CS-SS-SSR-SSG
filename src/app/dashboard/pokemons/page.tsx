@@ -1,5 +1,5 @@
-import { PokemonGrid } from "@/app/pokemons/components";
-import { PokemonsResponse, SimplePokemon } from "@/app/pokemons/interfaces";
+import { PokemonGrid } from "@/pokemons/components";
+import { PokemonsResponse, SimplePokemon } from "@/pokemons/interfaces";
 
 
 const getPokemons = async( limit = 20, offset= 0 ):Promise<SimplePokemon[]> => {
